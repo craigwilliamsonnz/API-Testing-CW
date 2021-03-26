@@ -22,7 +22,6 @@ namespace API_Testing_CW.src.steps
         /* ====== WHEN ====== */
         [When(@"the API is called")]
         public void theAPIIsCalled(){
-            Console.WriteLine("When Some conditions");
             api.callAPI();
         }
 
@@ -38,13 +37,13 @@ namespace API_Testing_CW.src.steps
         [Then(@"the Name field in the response is (.+)")]
         public void theNameFieldInTheResponseIs(String expectedValue)
         {
-            Assert.AreEqual(expectedValue, api.returnName(), "The expected value is not what was expected");
+            Assert.AreEqual(expectedValue, api.returnName(), "The expected value is not what was returned");
         }
 
         [Then(@"the CanRelist field in the response is true")]
         public void theCanRelistFieldInTheResponseIs()
         {
-            Assert.IsTrue(api.returnCanRelist(), "The expected value is not what was expected");
+            Assert.IsTrue(api.returnCanRelist(), "The expected value is not what was returned");
         }
 
         [Then(@"the description for the promotion (.+) is (.+)")]

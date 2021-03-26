@@ -80,7 +80,7 @@ namespace API_Testing_CW.Features
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check the contents of the Name field", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 3
+#line 4
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -100,13 +100,13 @@ namespace API_Testing_CW.Features
             else
             {
                 this.ScenarioStart();
-#line 4
+#line 5
         testRunner.When("the API is called", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 5
+#line 6
         testRunner.Then("the returned status is 200 OK", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 6
+#line 7
         testRunner.And("the Name field in the response is Carbon credits", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
@@ -120,7 +120,7 @@ namespace API_Testing_CW.Features
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("The auction can be relisted", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 8
+#line 10
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -140,13 +140,13 @@ namespace API_Testing_CW.Features
             else
             {
                 this.ScenarioStart();
-#line 9
+#line 11
         testRunner.When("the API is called", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 10
+#line 12
         testRunner.Then("the returned status is 200 OK", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 11
+#line 13
         testRunner.And("the CanRelist field in the response is true", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
@@ -160,7 +160,7 @@ namespace API_Testing_CW.Features
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("The promotion Gallery description", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 13
+#line 17
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -180,13 +180,13 @@ namespace API_Testing_CW.Features
             else
             {
                 this.ScenarioStart();
-#line 14
+#line 18
         testRunner.When("the API is called", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 15
+#line 19
         testRunner.Then("the returned status is 200 OK", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 16
+#line 20
         testRunner.And("the description for the promotion Gallery is 2x larger image", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }

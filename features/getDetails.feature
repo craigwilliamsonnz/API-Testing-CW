@@ -1,7 +1,7 @@
 Feature: Get details from API call
 
     # AC1 Name = "Carbon credits"
-    cenario: Check the contents of the Name field
+    Scenario: Check the contents of the Name field
         When the API is called
         Then the returned status is 200 OK
         And the Name field in the response is Carbon credits
