@@ -2,7 +2,7 @@
 API testing example using SpecFlow, RestSharp, and dotNet Core
 
 # Prerequisites
-This small project was written with dotNet Core SDK 5.0.4.  So use that version as a base line.  I wrote the tests under Linux with VC Code but running it under Windows should be fine as well.  Previous versions of dotNet core might work but haven't been tested.
+This small project was written with dotNet Core SDK 5.0.4.  So use that version as a base line.  I wrote the tests under Linux with VS Code but running it under Windows should be fine as well.  Previous versions of dotNet core might work but haven't been tested.
 
 # Running the application
 1. In a terminal, navigate to the root folder of the application.
